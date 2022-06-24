@@ -1,11 +1,9 @@
 #MERN AMAZONA BASIR 2022
 
-#LESSON 5
+#LESSON 6
 
-#List Products:
+#Add Routing:
 
-1. Create Products Array (by create a file named data.js)
-2. Add Products Images (by create a directory named images under the public directory)
-   size of images: width:679 pixel height:939 pixel
-3. Render Products
-4. Style Products
+1. install React Router Dom by Command:npm i react-router-dom
+2. Create Route for Home Screen (HomeScreen.js)
+3. Create Router for Product Screen (ProductScreen.js)

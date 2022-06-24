@@ -1,36 +1,25 @@
-import data from './data';
+import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+import HomeScreen from './screens/HomeScreen';
+import ProductScreen from './screens/ProductScreen';
 
 function App() {
   return (
-    <div>
-      <header>
-        <a href="/">BiLink Shop</a>
-      </header>
+    <BrowserRouter>
+      <div>
+        <header>
+          <Link to="/">BiLink Shop</Link>
+        </header>
 
-      <main>
-        <h1>Featured Products</h1>
-        <div className="products">
-          {data.products.map((product) => (
-            <div className="product" key={product.slug}>
-              <a href={`/product/${product.slug}`}>
-                <img src={product.image} alt={product.name} />
-              </a>
-              <div className="product-info">
-                <a className="product-name" href={`/product/${product.slug}`}>
-                  <p>{product.name}</p>
-                </a>
-                <p>
-                  <strong>${product.price}</strong>
-                </p>
-                <button>Add To Card</button>
-              </div>
-            </div>
-          ))}
-        </div>
-      </main>
+        <main>
+          <Routes>
+            <Route path="/" element={<HomeScreen />}></Route>
+            <Route path="/product/:slug" element={<ProductScreen />}></Route>
+          </Routes>
+        </main>
 
-      <footer>Footer</footer>
-    </div>
+        <footer>Footer</footer>
+      </div>
+    </BrowserRouter>
   );
 }
 
