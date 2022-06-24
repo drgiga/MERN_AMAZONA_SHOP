@@ -12,7 +12,7 @@ body {
     monospace;
 } */
 
-header {
+/* header {
   background-color: #404040;
   padding: 1rem;
 }
@@ -21,11 +21,15 @@ header a {
   color: #ffffff;
   font-weight: bold;
   text-decoration: none;
+} */
+.site-container {
+  min-height: 100vh;
 }
 
 main {
-  margin: 1rem;
+  flex: 1;
 }
+
 .products {
   display: flex;
   flex-wrap: wrap;
@@ -44,4 +48,7 @@ main {
 }
 .product-name {
   text-decoration: none;
+}
+.footer-color {
+  color: red;
 }

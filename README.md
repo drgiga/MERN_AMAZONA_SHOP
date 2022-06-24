@@ -1,9 +1,8 @@
 #MERN AMAZONA BASIR 2022
 
-#LESSON 8
+#LESSON 9
 
-#Manage State By Reducer Hook
+#Add bootstrap UI Framework
 
-1. define reducer
-2. update fetch data
-3. get state from useReducer
+1. npm install react-bootstrap bootstrap
+2. update App.js
