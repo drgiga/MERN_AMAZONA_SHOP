@@ -1,9 +1,11 @@
 #MERN AMAZONA BASIR 2022
 
-#LESSONS
+#LESSON 5
 
-1. Introduction
-2. install Tools & Extensions: Prettier,ESLint,ES6,ES7
-3. Create React App By Command: npx create-react-app frontend
-4. Create Github Repository And Push The Project On It.
-5. Create README.md File for Project Description.
+#List Products:
+
+1. Create Products Array (by create a file named data.js)
+2. Add Products Images (by create a directory named images under the public directory)
+   size of images: width:679 pixel height:939 pixel
+3. Render Products
+4. Style Products
