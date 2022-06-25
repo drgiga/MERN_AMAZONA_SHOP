@@ -60,3 +60,6 @@ main {
 .footer-color {
   color: red;
 }
+.img-large {
+  max-width: 100%;
+}

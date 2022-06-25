@@ -1,7 +1,8 @@
 #MERN AMAZONA BASIR 2022
 
-#LESSON 11
+#LESSON 12
 
-#Fix ERROR: Warning: Each child in a list should have a unique "key" prop.
+#Create Product Details Screen
 
-1. Cut key={product.slug} from Tag ("Card key={product.slug}" in Product) and Paste in Tag ("Col key={product.slug}" in HomeScreen)
+1. fetch product from backend
+2. create 3 columns for image, info and action
