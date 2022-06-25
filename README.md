@@ -1,8 +1,10 @@
 #MERN AMAZONA BASIR 2022
 
-#LESSON 12
+#LESSON 13
 
-#Create Product Details Screen
+#Create Loading and Message Component
 
-1. fetch product from backend
-2. create 3 columns for image, info and action
+1. create loading component
+2. use spinner component
+3. create message component
+4. create utils.js to define getError fuction
