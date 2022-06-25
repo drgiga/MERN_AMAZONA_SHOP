@@ -1,9 +1,12 @@
 //mport data from '../data';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 //import { useState, useEffect } from 'react';
 import { useEffect, useReducer } from 'react';
 import axios from 'axios';
 import logger from 'use-reducer-logger';
+import { Row, Col } from 'react-bootstrap';
+import Product from '../components/Product';
+
 //------------- Define Reducer Function ------------
 const reducer = (state, action) => {
   switch (action.type) {
@@ -43,29 +46,20 @@ function HomeScreen() {
   }, []);
   return (
     <div>
-      <h1>Featured Products</h1>
+      <h1> Featured Products </h1>
       <div className="products">
         {loading ? (
-          <div>Loading ... </div>
+          <div> Loading... </div>
         ) : error ? (
-          <div>{error}</div>
+          <div> {error} </div>
         ) : (
-          products.map((product) => (
-            <div className="product" key={product.slug}>
-              <Link to={`/product/${product.slug}`}>
-                <img src={product.image} alt={product.name} />
-              </Link>
-              <div className="product-info">
-                <Link className="product-name" to={`/product/${product.slug}`}>
-                  <p>{product.name}</p>
-                </Link>
-                <p>
-                  <strong>${product.price}</strong>
-                </p>
-                <button>Add To Card</button>
-              </div>
-            </div>
-          ))
+          <Row>
+            {products.map((product) => (
+              <Col sm={6} md={4} lg={3} className="mb-3">
+                <Product product={product}> </Product>
+              </Col>
+            ))}
+          </Row>
         )}
       </div>
     </div>

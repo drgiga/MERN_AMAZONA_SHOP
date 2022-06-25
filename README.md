@@ -1,8 +1,9 @@
 #MERN AMAZONA BASIR 2022
 
-#LESSON 9
+#LESSON 11
 
-#Add bootstrap UI Framework
+#Create Product and Rating Component
 
-1. npm install react-bootstrap bootstrap
-2. update App.js
+1. Create Rating component
+2. Create Product component
+3. Use Rating component in Product component
