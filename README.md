@@ -2,8 +2,6 @@
 
 #LESSON 11
 
-#Create Product and Rating Component
+#Fix ERROR: Warning: Each child in a list should have a unique "key" prop.
 
-1. Create Rating component
-2. Create Product component
-3. Use Rating component in Product component
+1. Cut key={product.slug} from Tag ("Card key={product.slug}" in Product) and Paste in Tag ("Col key={product.slug}" in HomeScreen)
