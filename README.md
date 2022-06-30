@@ -1,10 +1,8 @@
 #MERN AMAZONA BASIR 2022
 
-#LESSON 14
+#LESSON 15
 
-#Implement Add To Cart
+#Complete Add To Cart
 
-1. Create React Context
-2. define reducer
-3. create store provider
-4. implement add to cart button click handler
+1. check exist item in the cart
+2. check count in stock in backend
