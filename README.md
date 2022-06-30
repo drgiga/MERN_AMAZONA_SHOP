@@ -1,8 +1,8 @@
 #MERN AMAZONA BASIR 2022
 
-#LESSON 14-1
+#LESSON 15
 
-#Change Size of images
+#Complete Add To Cart
 
-1. change size of images to (548*750) pixel
-
+1. check exist item in the cart
+2. check count in stock in backend
