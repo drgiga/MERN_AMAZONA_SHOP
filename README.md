@@ -4,5 +4,5 @@
 
 #Change Size of images
 
-1. change size of images to (542*750) pixel
+1. change size of images to (548*750) pixel
 
