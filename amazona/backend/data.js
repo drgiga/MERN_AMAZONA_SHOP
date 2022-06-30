@@ -1,6 +1,7 @@
 const data = {
   products: [
     {
+      _id: '1',
       name: 'Nike Slim shirt',
       slug: 'nike-slim-shirt',
       category: 'Shirts',
@@ -13,6 +14,7 @@ const data = {
       description: 'high quality shirt made in turkey',
     },
     {
+      _id: '2',
       name: 'Adidas Slim shirt',
       slug: 'Adidas-slim-shirt',
       category: 'Shirts',
@@ -25,6 +27,7 @@ const data = {
       description: 'high quality shirt made in philipine',
     },
     {
+      _id: '3',
       name: 'Puma Slim shirt',
       slug: 'Puma-slim-shirt',
       category: 'Shirts',
@@ -37,6 +40,7 @@ const data = {
       description: 'high quality shirt made in iran',
     },
     {
+      _id: '4',
       name: 'Kopol Slim shirt',
       slug: 'Kopol-slim-shirt',
       category: 'Shirts',
