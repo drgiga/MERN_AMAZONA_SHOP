@@ -92,7 +92,6 @@ export default function CartScreen() {
             </Card.Body>
           </Card>
         </Col>
-        sss
       </Row>
     </div>
   );
